@@ -1,0 +1,55 @@
+<style>
+  .encabezado{
+    text-align:center;
+  }
+
+  .banner{
+    width:100%;
+    height: 200px;
+    background-color: yellow;
+  }
+  .contenedor{
+    margin-top: 25px;
+    width:100%;
+    height: 500px;
+
+  }
+ .contenedor > .izquierda{
+    background:blue;
+    float:left;
+    height: 300px;
+    width: 50%;
+  }
+   .contenedor > .derecha{
+    background:green;
+    float:left;
+    height: 300px;
+    width: 50%;
+  }
+  p{
+    margin: 10px;
+  }
+</style>
+
+<div class="encabezado">
+  <h1> Esta es la pagina About </h1>
+  <%= link_to ' voy para home', root_path %>
+</div>
+
+<div class="banner">
+
+</div>
+
+<div class="contenedor">
+  <div class="izquierda">
+    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las let </p>
+  </div>
+
+  <div class="derecha">
+    <p> Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las let</p>
+  </div>
+</div>
+
+
+
+
